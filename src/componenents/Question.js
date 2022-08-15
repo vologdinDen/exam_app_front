@@ -22,7 +22,7 @@ const Question = () => {
 
     const [question, setQuestion] = useState(null);
     const [questionNumber, setQuestionNumber] = useState(questionList[listNumber]);
-    const url = `http://127.0.0.1:8000/api/question/${questionNumber}/`;
+    const url = `http://vologdinden.pythonanywhere.com/api/question/${questionNumber}/`;
 
     useEffect(() => {
 
