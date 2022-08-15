@@ -1,0 +1,21 @@
+.score-zone{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.given-answers{
+    background-color: rgb(201, 60, 32);
+}
+
+.true-answers{
+    background-color: rgb(152, 255, 152);
+    margin-bottom: 3vh;
+}
+
+.question{
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
